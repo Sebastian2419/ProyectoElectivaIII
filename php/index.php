@@ -23,7 +23,7 @@
     <meta charset="utf-8">
     <title>Welcome to you WebApp</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="../style.css">
   </head>
   <body>
     <?php require 'header.php' ?>
@@ -35,10 +35,10 @@
         Logout
       </a>
     <?php else: ?>
-      <h1>Please Login or SignUp</h1>
+      <h1>Por favor regístrese o inicie sesión</h1>
 
-      <a href="login.php">Login</a> or
-      <a href="signup.php">SignUp</a>
+      <a href="login.php">Registrarse</a> o
+      <a href="signup.php">Iniciar sesión</a>
     <?php endif; ?>
   </body>
 </html>
